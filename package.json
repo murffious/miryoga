@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "fabric": "^1.7.19",
+    "material-ui": "^0.19.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-materialize": "^1.0.16",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-slick": "^0.15.4"
   },
   "scripts": {
     "start": "react-scripts start",
