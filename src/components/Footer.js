@@ -29,7 +29,7 @@ class Footer extends Component {
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2018 Copyright 
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>

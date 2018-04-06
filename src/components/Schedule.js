@@ -18,6 +18,9 @@ class Schedule extends Component {
           };
         return (
             <div>
+
+                IMAGES HERE !!!
+                <br/>
                 Current Schedule:
                 Jenns classes are held at Easton Yoga and Yukato Yoga in the Lehigh Valley. For special events & traveling workshops, see details below.
 
@@ -29,6 +32,12 @@ THe fonts I like are: 'Love ya like a sister' 'Just me again down here' and 'sun
                     <Paper style={style} zDepth={3} >
                         <DatePicker1 />
                         <TimePicker1 />
+                        Name 
+        Email 
+        Phone 
+
+        Terms and info checkbox
+        <br/>
                         <NotificationSchedule />
                     </ Paper>
                 </MuiThemeProvider>

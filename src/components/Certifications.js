@@ -43,7 +43,7 @@ render (){
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">Utah Restorative Partner Yoga<img src={bodi} /></span>
+          <span class="card-title">Restorative Partner Yoga<img src={bodi} /></span>
           The word “Bodhi” means the path by which on experiences awakening and enlightenment. 
           <p>over 75 Restorative Partner Yoga Adjustments; including a wide variety of Ayurvedic-Dosha and 10-Sense energy line  Savasana therapies.</p>
         </div>

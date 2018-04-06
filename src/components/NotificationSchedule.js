@@ -30,6 +30,8 @@ export default class NotificationSchedule extends React.Component {
           onClick={this.handleTouchTap}
           label="Request Yoga Session"
         />
+
+     
         <Snackbar
           open={this.state.open}
           message="Request has been sent"

@@ -18,7 +18,11 @@ import { Router, Route } from 'react-router-dom';
 import About from './components/About';
 import Schedule from './components/Schedule';
 import Home from './components/Landing';
+import { Footer } from 'react-materialize';
+import Footer1 from './components/Footer';
 
+
+// Read up on Vh VW 100% and block liek on other sites 
 class App extends Component {
  
   render() {
@@ -46,7 +50,7 @@ class App extends Component {
         {/* <div class="carousel-container">
         <Carousel slides={carouselSlidesData} /></div> */}
         
-       
+       <Footer1 />
 </div>
 
 
