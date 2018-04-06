@@ -40,6 +40,34 @@ class Schedule extends Component {
                         </div>
                         </div>
                     </div>
+
+                    <div className="row">
+                        <div className="col s12 m6">
+                        <div className="card blue-grey darken-1">
+                            <div className="card-content white-text">
+                            <span className="card-title">One on One Session</span>
+                            <p>1-3pm or 2-4pm for times M-F. Mornings, Evenings and Saturdays available upon request.</p>
+                            </div>
+                            <div className="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col s12 m6">
+                        <div className="card blue-grey darken-1">
+                            <div className="card-content white-text">
+                            <span className="card-title">For special events & traveling workshops, see details below.</span>
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div className="card-action">
+                            <a href="#">This is a link</a>
+                            <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
               
                  <MuiThemeProvider> 
                     <Paper style={style} zDepth={3} >
