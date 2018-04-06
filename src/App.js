@@ -14,6 +14,10 @@ import NotificationSchedule from './components/NotificationSchedule';
 import Fade from './components/Slider';
 // import JqxDateTimeInput from './jqwidgets-react/react_jqxdatetimeinput';
 import { render } from 'react-dom';
+import { Router, Route } from 'react-router-dom';
+import About from './components/About';
+import Schedule from './components/Schedule';
+import Home from './components/Landing';
 
 class App extends Component {
  
@@ -29,24 +33,20 @@ class App extends Component {
      <div>
         <NavBar />
        <div className="container">
+      
+      
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/schedule" component={Schedule}/>
+          
+     
        
-         
-        <MuiThemeProvider> 
-            
-   
-          <Paper style={style} zDepth={3} >
-   
-    
-             <DatePicker1 />
-            <TimePicker1 />
-            <NotificationSchedule />
-          </ Paper>
-        </MuiThemeProvider>
         </div>
         {/* <Fade /> */}
-        <div class="carousel-container">
-        <Carousel slides={carouselSlidesData} /></div>
+        {/* <div class="carousel-container">
+        <Carousel slides={carouselSlidesData} /></div> */}
         
+       
 </div>
 
 

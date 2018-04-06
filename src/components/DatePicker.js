@@ -8,7 +8,7 @@ import DatePicker from 'material-ui/DatePicker';
  */
 const DatePicker1 = () => (
   <div >
-    <h1>Schedule a session with Mirayoga</h1>
+    <h1>Schedule a session with MirYoga</h1>
     <DatePicker hintText="Pick a date here" mode="landscape" />
   
   </div>
