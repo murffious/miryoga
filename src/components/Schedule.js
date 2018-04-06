@@ -5,7 +5,9 @@ import TimePicker1 from './TimePicker';
 import Papers from './Papers';
 import Paper from 'material-ui/Paper';
 import NotificationSchedule from './NotificationSchedule';
-
+import {Button, Icon, Row, Col, CardPanel, Input} from 'react-materialize';
+import yoga4 from '../assets/ruslan-zh.jpg';
+// 'Love ya like a sister' 'Just me again down here' and 'sunshiney.'
 class Schedule extends Component {
 
     render () {
@@ -17,26 +19,40 @@ class Schedule extends Component {
             display: 'inline-block',
           };
         return (
-            <div>
+            <div style={{marginTop: "300px"}}>
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                        <div class="card-panel lighten-5 z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col s2">
+                            <img src={yoga4} alt="" class="circle responsive-img"/> 
+                            </div>
+                            <div class="col s10">
+                            <span class="black-text">
+                            Current Schedule:
+                Jenns classes come to you and she has a Yoga Studio in Caldwell, Idaho. For special events & traveling workshops, see details below.
 
-                IMAGES HERE !!!
-                <br/>
-                Current Schedule:
-                Jenns classes are held at Easton Yoga and Yukato Yoga in the Lehigh Valley. For special events & traveling workshops, see details below.
+                <p>One on One times</p> 
+                1-3pm or 2-4pm for times M-F. Mornings, Evenings and Saturdays available upon request.
 
-                One on One times 
-                1-3pm or 2-4pm for times M-F. Mornings, Evenings and saturdays available upon request.   We are going to the cultural celebration for the meridian Temple at noon until 3pm. So after that I will call.  .  I couldn't really tell much with the color. Oh and change it to MirYoga instead of Mirayoga in the scheduling box.  
-THe fonts I like are: 'Love ya like a sister' 'Just me again down here' and 'sunshiney.'
-               <p>Group times  Locations </p> 
+                Cost : $75 per 90 min.
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+              
                  <MuiThemeProvider> 
                     <Paper style={style} zDepth={3} >
                         <DatePicker1 />
                         <TimePicker1 />
-                        Name 
-        Email 
-        Phone 
-
-        Terms and info checkbox
+                        <Row>
+                        <Input s={6} label="Name" validate><Icon>account_circle</Icon></Input>
+                        <Input s={6} label="Telephone" validate type='tel'><Icon>phone</Icon></Input>
+                      </Row>
+                      <Row>
+                        <Input s={6} label="Email" validate><Icon>email</Icon></Input>
+                        <Input name='group1' type='checkbox' value='red' label='Terms and Conditions' />
+                      </Row>
         <br/>
                         <NotificationSchedule />
                     </ Paper>

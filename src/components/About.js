@@ -9,13 +9,32 @@ class About extends Component {
         return (
             <div style={{marginTop: "300px"}}>
 
-<div class="card">
-    <div class="card-content">
+<div className="card">
+    <div className="card-content">
     <img src={yoga2} width="300px" style={{float:"right"}}/> 
 
-      <p>MirYoga's Certified Teacher</p>
-      The word “Bodhi” means the path by which on experiences awakening and enlightenment. 
-          <p>• To teach a complete repertoire of Yoga Postures
+      <p>Meet Jenn MirYoga's Certified Yoga Teacher and Founder</p>
+      {/* The word “Bodhi” means the path by which on experiences awakening and enlightenment. PUT his on landing page maybe
+      <p>What can you expect from Jenn as a Ceritfied Teacher</p> */}
+         
+      <ul className="collection with-header">
+        <li className="collection-header teal"><h4>What can you expect from Jenn as a Ceritfied Yoga Teacher?</h4></li>
+        <li className="collection-item">To teach a complete repertoire of Yoga Postures</li>
+        <li className="collection-item">A variety of BodhiFlow Vinyasa Power Yoga Styles & Sequencing</li>
+        <li className="collection-item">A variety of BodhiYin Restorative Styles & Sequencing</li>
+        <li className="collection-item">A variety of BodhiSpin Chakra Styles with Kundalini Style Sequencing</li>
+        <li className="collection-item">The twelve Systems of the Body as related to the body of Yoga</li>
+        <li className="collection-item">Anatomy/Emotions of Yoga Movement</li>
+        <li className="collection-item">Structures of Sanskrit/Yoga Chant/Ayurveda</li>
+        <li className="collection-item">Teaching students body awareness, and how to move through beginning through advanced yoga postures using Bodhi Yoga’s Natural Progression™ approach to Asanas</li>
+        <li className="collection-item">Comprehensive Hands-on-adjusting using Thai Partner Yoga Techniques</li>
+        <li className="collection-item">Develop Specialized Classes from Pre-Natal, Kids to a range of Therapeutic Yoga</li>
+        <li className="collection-item">Skills for designing individually appropriate private sessions with confidence & authenticity.</li>
+        <li className="collection-item"> over 75 Restorative Partner Yoga Adjustments; including a wide variety of Ayurvedic-Dosha and 10-Sense energy line  Savasana therapies</li>
+       
+
+      </ul>
+          {/* <p>• To teach a complete repertoire of Yoga Postures
           
           • A variety of BodhiFlow Vinyasa Power Yoga Styles & Sequencing
           
@@ -36,17 +55,17 @@ class About extends Component {
           • Develop Specialized Classes from Pre-Natal, Kids to a range of Therapeutic Yoga
           
           • Skills for designing individually appropriate private sessions with confidence & authenticity.
-          over 75 Restorative Partner Yoga Adjustments; including a wide variety of Ayurvedic-Dosha and 10-Sense energy line  Savasana therapies</p>
+          over 75 Restorative Partner Yoga Adjustments; including a wide variety of Ayurvedic-Dosha and 10-Sense energy line  Savasana therapies</p> */}
           
     </div>
-    <div class="card-tabs">
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab"><a href="#test4">About Jenn</a></li>
-        <li class="tab"><a class="active" href="#test5">MirYoga: Reflect You</a></li>
-        <li class="tab"><a href="#test6">How I came to Yoga</a></li>
+    <div className="card-tabs">
+      <ul className="tabs tabs-fixed-width">
+        <li className="tab"><a href="#test4">About Jenn</a></li>
+        <li className="tab"><a className="active" href="#test5">MirYoga: Reflect Your Light Within</a></li>
+        <li className="tab"><a href="#test6">How I came to Yoga</a></li>
       </ul>
     </div>
-    <div class="card-content grey lighten-4">
+    <div className="card-content grey lighten-4">
       <div id="test4">
       <h1>About Jenn</h1><p>&nbsp;</p>
 							
@@ -59,7 +78,8 @@ class About extends Component {
       
       
       </div>
-      <div id="test5">What does Miryagp mean </div>
+      <div id="test5">What does Miryagp mean 
+      Why Miryoga?  Mir means tranquility in Croatian (my heritage). I have been doing yoga for about 22 years.  I love the way it makes me feel.  It is a moving meditation.   I desire everyone who does yoga with me to have tranquility-peacefulness, calmness, stillness, restfulness, quietness,  have serenity and  feel placid.  I chose to do my yoga certification with Syl Carson with BodhiYoga out of Provo. Utah.  I fell in love with the hands-on adjustments in the initial teacher training and went on to the take Restorative Partner Yoga training.  That is what I love to do the most! Right now, I do traveling yoga-so I come to you! I offer private yoga sessions, partner yoga,and workshops upon request.  I sub yoga at the Caldwell YMCA also, so you can find me there too.  I look forward to hearing from you!</div>
       <div id="test6">Why do yoga? 
       <p>I have found for me personally I feel refreshed, calm, and focused after yoga.  There are many health benefits as well such as better digestion and a healthy heart.The poorest of people can practice yoga. Yoga is portable. Anyone can do it, at the very least meditation.There are so many distractions, noise and negativity in the world.  Yoga brings us balance, peace and contentment. Yoga is all about learning to live in the moment and acceptance of self and others.  We are all on our own path and when we accept where others are on their path, there follows serenity.  I have learned to live and think abundantly in yoga.  I have and more importantly AM enough.  </p></div>
     </div>

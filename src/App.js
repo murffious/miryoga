@@ -18,6 +18,8 @@ import { Router, Route } from 'react-router-dom';
 import About from './components/About';
 import Schedule from './components/Schedule';
 import Home from './components/Landing';
+import BlogPost from './components/BlogPost';
+
 import { Footer } from 'react-materialize';
 import Footer1 from './components/Footer';
 
@@ -42,6 +44,7 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/schedule" component={Schedule}/>
+          <Route path="/miryoga-blog" component={BlogPost}/>
           
      
        

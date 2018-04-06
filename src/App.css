@@ -3,6 +3,9 @@ body {
   background-position: 50% 8%;
 }
 
+#facebook-logo {
+  line-height: 0;
+}
 nav .brand-logo.right {
   right: 22.5rem;
   padding: 0;

@@ -16,9 +16,9 @@ render() {
           <NavItem href='/'><Icon>home</Icon></NavItem>
           <NavItem href='/about'>About</NavItem>
           <NavItem href='/schedule'>Schedule</NavItem>
-          <NavItem href='components.html'>Blog</NavItem>
-         <li> <a  className="waves-effect waves-light social-icon btn">
-                <i style={{lineHeight: "21px !important"}} className="fa fa-facebook"></i></a></li>
+          <NavItem href='/miryoga-blog'>Blog</NavItem>
+          <a  className="waves-effect waves-light social-icon btn" href='https://www.facebook.com/jennmholden/' target="_blank">
+                <i id="facebook-logo" className="fa fa-facebook"></i></a>
       </Navbar>
   );
 }

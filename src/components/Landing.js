@@ -10,20 +10,52 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <Row>
-    <Col s={12} m={12}>
-        <CardPanel className="teal lighten-4 black-text">
-            <span>Welcome to MirYoga: Reflect Your Light Within</span> <Button waves='light'>Schedule<Icon left>schedule</Icon></Button> Call Email
-        </CardPanel>
-       
-    </Col>
-    
-</Row>
- <img src={yoga1} width="300px" /> 
+               <Row>
+                  <Col s={12} m={12}>
+                      <CardPanel className="teal lighten-4 black-text">
+                          <span>Welcome to MirYoga: Reflect Your Light Within</span> <Button waves='light'>Schedule<Icon left>schedule</Icon></Button> <span>Call or Text 208-284-6331</span> <span>Email jennsmiryoga@gmail.com</span> 
+                      </CardPanel>
+                    
+                  </Col>
+                  
+              </Row>
 
- {/* <Fade />  */}
-     <div class="carousel-container">
-        <Carousel slides={carouselSlidesData} /></div> 
+              <img src={yoga1} width="300px" /> 
+              <Row>
+                  <Col s={12} m={12}>
+                      <CardPanel className="teal lighten-4 black-text">
+                          <span>Pursuing a quiet yoga revolution,  based in healing,  Jenn offers exclusive Resotrative Yoga to Caldwawell Boise area. and beyond.   </span> <span>"Gentle is the New Advanced"</span> 
+                      </CardPanel>
+                    
+                  </Col>
+                  
+              </Row>
+              <div className="col s12 m8 offset-m2 l6 offset-l3">
+        <div className="card-panel grey lighten-5 z-depth-1">
+          <div className="row valign-wrapper">
+            {/* <div className="col s2">
+              <img src={yoga1} alt="" className="responsive-img"/>
+            </div> */}
+            <div className="col s10">
+              <h1 >
+                What people are saying about Restorative Partner Yoga with Jenn
+              </h1>
+               {/* Possible slider <Fade />  */}
+              <div className="carousel-container">
+              <Carousel slides={carouselSlidesData} />
+            </div> 
+            <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>Learn More</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+              
+           
+               
+           
+{/* trash  */}
+
 {/* 
     <div className="col s12 m8 offset-m2 l6 offset-l3">
         <div className="card-panel grey lighten-5 z-depth-1">
@@ -41,8 +73,8 @@ class Home extends Component {
       </div> */}
 
 
-      <div className="panel panel-default">
-  <div className="panel-heading">Do yo uwant to be ....</div>
+      {/* <div className="panel panel-default">
+  <div className="panel-heading">What is Restorative Partner Yoga?</div>
   <div className="panel-body">
   <img src={panel1} width="300px" /> 
   Call to action phrases like :
@@ -54,9 +86,59 @@ do you want ot chagne or feel more happy?  What will Miroga do fo them or whatev
 Yoga has been accepted and is practiced worldwide now.What cannot be denied is that there has also been a change in the way that yoga is perceived worldwide. While some may think of yoga with suspicion as a 'Hindu ritual performed by sages', this is not true of the majority. Yoga is seen as a way to achieve nirvana amidst the pressures of a capitalist life. "The rigours of the typical sedentary white collar job, staring at computer and phone screens, transiting between airports and hotel rooms, have given birth to a ‘wellness’ industry that attempts to save modern man from the pitfalls modern life. And yoga takes centre stage in the plethora of wellness solutions that help rejuvenate, resuscitate and reflect on the present, even as attention spans attenuate," wrote Vivan Sharan for Global Policy Journal.
 Much time and effort was spent trying to define yoga's potential. "Yoga serves as a reminder of the potential for men and women to live in harmony with each other, as well as with nature, at a time when violent forces are threatening to destabilise society. Yoga is an important antidote to such negativity — to move us on the path of peace," said Sushma Swaraj.
   </div>
+</div> */}
+
+<div className="panel panel-default">
+  <div className="panel-heading">
+    <h3 className="panel-title">What is Restorative Partner Yoga?</h3>
+  </div>
+  <div className="col s12 m8 offset-m2 l6 offset-l3">
+  <div className="panel-body">
+    <div className="row valign-wrapper">
+      <div className="col s2">
+        <img src={panel1} alt="" className="responsive-img"/>
+      </div>
+      <div className="col s10">
+        <span className="black-text">
+   
+<h3>Ever wanted to do yoga without sweating?</h3>
+do you want to feel...?ahave you felt like ...? 
+do you want ot chagne or feel more happy?  What will Miroga do fo them or whatever. 
+
+
+Yoga has been accepted and is practiced worldwide now.What cannot be denied is that there has also been a change in the way that yoga is perceived worldwide. While some may think of yoga with suspicion as a 'Hindu ritual performed by sages', this is not true of the majority. Yoga is seen as a way to achieve nirvana amidst the pressures of a capitalist life. "The rigours of the typical sedentary white collar job, staring at computer and phone screens, transiting between airports and hotel rooms, have given birth to a ‘wellness’ industry that attempts to save modern man from the pitfalls modern life. And yoga takes centre stage in the plethora of wellness solutions that help rejuvenate, resuscitate and reflect on the present, even as attention spans attenuate," wrote Vivan Sharan for Global Policy Journal.
+Much time and effort was spent trying to define yoga's potential. "Yoga serves as a reminder of the potential for men and women to live in harmony with each other, as well as with nature, at a time when violent forces are threatening to destabilise society. Yoga is an important antidote to such negativity — to move us on the path of peace," said Sushma Swaraj.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 <div className="panel panel-default">
+  <div className="panel-heading">
+    <h3 className="panel-title">What is Yoga?</h3>
+  </div>
+  <div className="col s12 m8 offset-m2 l6 offset-l3">
+  <div className="panel-body">
+    <div className="row valign-wrapper">
+      <div className="col s2">
+        <img src={panel2} alt="" className="responsive-img"/>
+      </div>
+      <div className="col s10">
+        <span className="black-text">
+        April 23, 2015
+*ByDr.IshwarV.Basavaraddi 
+
+Introduction :Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and science of healthy living. The word ‘Yoga’ is derived from the Sanskrit root ‘Yuj’, meaning ‘to join’ or ‘to yoke’ or ‘to unite’. As per Yogic scriptures the practice of Yoga leads to the union of individual consciousness with that of the Universal Consciousness, indicating a perfect harmony between the mind and body, Man & Nature. According to modern scientists, everything in the universe is just a manifestation of the same quantum firmament. One who experiences this oneness of existence is said to be in yoga, and is termed as a yogi, having attained to a state of freedom referred to as mukti, nirvana or moksha. Thus the aim of Yoga is Self-realization, to overcome all kinds of sufferings leading to 'the state of liberation' (Moksha) or ‘freedom’ (Kaivalya). Living with freedom in all walks of life, health and harmony shall be the main objectives of Yoga practice. “Yoga” also refers to an inner science comprising of a variety of methods through which human beings can realize this union and achieve mastery over their destiny. Yoga, being widely considered as an ‘immortal cultural outcome’ of Indus Saraswati Valley civilization – dating back to 2700 B.C., has proved itself catering to both material and spiritual upliftment of humanity. Basic humane values are the very identity of Yoga Sadhana.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{/* <div className="panel panel-default">
   <div className="panel-heading">
     <h3 className="panel-title">What is Yoga?</h3>
   </div>
@@ -67,9 +149,7 @@ April 23, 2015
 
 Introduction :Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and science of healthy living. The word ‘Yoga’ is derived from the Sanskrit root ‘Yuj’, meaning ‘to join’ or ‘to yoke’ or ‘to unite’. As per Yogic scriptures the practice of Yoga leads to the union of individual consciousness with that of the Universal Consciousness, indicating a perfect harmony between the mind and body, Man & Nature. According to modern scientists, everything in the universe is just a manifestation of the same quantum firmament. One who experiences this oneness of existence is said to be in yoga, and is termed as a yogi, having attained to a state of freedom referred to as mukti, nirvana or moksha. Thus the aim of Yoga is Self-realization, to overcome all kinds of sufferings leading to 'the state of liberation' (Moksha) or ‘freedom’ (Kaivalya). Living with freedom in all walks of life, health and harmony shall be the main objectives of Yoga practice. “Yoga” also refers to an inner science comprising of a variety of methods through which human beings can realize this union and achieve mastery over their destiny. Yoga, being widely considered as an ‘immortal cultural outcome’ of Indus Saraswati Valley civilization – dating back to 2700 B.C., has proved itself catering to both material and spiritual upliftment of humanity. Basic humane values are the very identity of Yoga Sadhana.
   </div>
-</div>
-
-
+</div> */}
 
                   </div>
         )
