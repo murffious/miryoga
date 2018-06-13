@@ -1,8 +1,15 @@
 body {
-  background: #f4f4f4 url("assets/MirYoga - 2 color.png") no-repeat;
+  /* background: #f4f4f4 url("assets/MirYoga - 2 color.png") no-repeat;
   background-position: 50% 8%;
+  background-size: 23%; */
+  /* font-family: 'Love Ya Like A Sister', cursive; */
+  /* font-family: 'Just Me Again Down Here', cursive; */
+  font-family: 'Sunshiney', cursive;
 }
 
+/* font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Sunshiney', cursive; */
 #facebook-logo {
   line-height: 0;
 }

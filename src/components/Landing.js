@@ -1,50 +1,66 @@
 import React, { Component } from 'react';
 import {Button, Icon, Row, Col, CardPanel} from 'react-materialize';
-
+import miryoga from '../assets/MirYoga - 2 color.png';
 import yoga1 from '../assets/Jenn1.jpg';
 import panel1 from '../assets/rockwall.jpeg';
 import panel2 from '../assets/ocean_rock.jpeg';
 import Fade from './Slider';
+import '../styles/Landing.css';
+
 class Home extends Component {
 
     render () {
         return (
             <div>
                <Row>
-                  <Col s={12} m={12}>
-                      <CardPanel className="teal lighten-4 black-text">
-                          <span>Welcome to MirYoga: Reflect Your Light Within</span> <Button waves='light'>Schedule<Icon left>schedule</Icon></Button> <span>Call or Text 208-284-6331</span> <span>Email jennsmiryoga@gmail.com</span> 
+               <Col s={4} m={4}>
+                  <img src={yoga1} width="275px" className="main-photo"/> 
+                  </Col>
+                  <Col s={4} m={4}>
+                  
+                  <img src={miryoga} width="275px" className="main-photo"/> 
+                  </Col>
+                  <Col s={3} m={3} >
+                      <CardPanel className=" lighten-4 black-text" style={{height:"70% !important", backgroundColor: "#F28420"}}>
+                      <h1><span>Welcome to MirYoga: Reflect Your Light Within:</span></h1>
+                         <h2>Jenn offers exclusive Resotrative Yoga to Caldwawell Boise area. and beyond.
+                         <Button waves='light'>Services<Icon left>schedule</Icon></Button>
+                           <Button waves='light'>Schedule<Icon left>schedule</Icon></Button> 
+                           <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>Learn More</a>
+                           <span>Call or Text 208-284-6331</span> <span>Email jennsmiryoga@gmail.com</span> 
+                           </h2>
                       </CardPanel>
                     
                   </Col>
                   
+                
               </Row>
 
-              <img src={yoga1} width="300px" /> 
+            
               <Row>
-                  <Col s={12} m={12}>
+                  {/* <Col s={12} m={12}>
                       <CardPanel className="teal lighten-4 black-text">
                           <span>Pursuing a quiet yoga revolution,  based in healing,  Jenn offers exclusive Resotrative Yoga to Caldwawell Boise area. and beyond.   </span> <span>"Gentle is the New Advanced"</span> 
                       </CardPanel>
                     
-                  </Col>
-                  
+                  </Col> */}
+                     <h1 >
+                What people are saying about Restorative Partner Yoga with Jenn?
+              </h1>
               </Row>
               <div className="col s12 m8 offset-m2 l6 offset-l3">
-        <div className="card-panel grey lighten-5 z-depth-1">
-          <div className="row valign-wrapper">
-            {/* <div className="col s2">
-              <img src={yoga1} alt="" className="responsive-img"/>
-            </div> */}
-            <div className="col s10">
-              <h1 >
-                What people are saying about Restorative Partner Yoga with Jenn
-              </h1>
-               {/* Possible slider <Fade />  */}
-              <div className="carousel-container">
-              <Carousel slides={carouselSlidesData} />
-            </div> 
-            <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>Learn More</a>
+                <div className="card-panel grey lighten-5 z-depth-1">
+                  <div className="row valign-wrapper">
+                    {/* <div className="col s2">
+                      <img src={yoga1} alt="" className="responsive-img"/>
+                    </div> */}
+                    <div className="col">
+                    
+                      {/* Possible slider <Fade />  */}
+                      <div className="carousel-container">
+                      <Carousel slides={carouselSlidesData} />
+                    </div> 
+                    <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>Learn More</a>
 
             </div>
           </div>
